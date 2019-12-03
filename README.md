@@ -15,4 +15,23 @@ curl -H "Content-Type: text/plain" -H "Authorization: Bearer ya29-----31QV" --da
 }
 ```
 
+response: 
+```
+{
+  "payload": [
+    {
+      "classification": {
+        "score": 0.82916576
+      },
+      "displayName": "True_Positive"
+    },
+    {
+      "classification": {
+        "score": 0.17083418
+      },
+      "displayName": "False_Positives"
+    }
+  ]
+}
 
+```
