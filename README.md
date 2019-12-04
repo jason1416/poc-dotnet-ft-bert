@@ -28,7 +28,7 @@ echo %token%
 }
  
 4 do prediction 
-curl -H "Content-Type: application/json" -H "Authorization: %token%" --data "@googelautoml_request_data.json"  https://automl.googleapis.com/v1beta1/projects/safemailautoml/locations/us-central1/models/TCN6737749096603608115:predict
+curl -H "Content-Type: application/json" -H "Authorization: Bearer %token%" --data "@googelautoml_request_data.json"  https://automl.googleapis.com/v1beta1/projects/safemailautoml/locations/us-central1/models/TCN6737749096603608115:predict
  ```
 5 response: 
 ```
